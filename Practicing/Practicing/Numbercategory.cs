@@ -28,11 +28,11 @@ namespace Practicing
             }
             if (count > 2)
             {
-                return "Compposite number";
+                return "the number is a Compposite number";
             }
             else
             {
-                return "Prime number";
+                return "The number is a Prime number";
             }
 
         }

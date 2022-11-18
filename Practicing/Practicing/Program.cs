@@ -48,17 +48,37 @@ using System.Text;
 //Console.WriteLine($"Result = " + Calculation1.CalculatorMethod(Calculation1.Num1, Calculation1.Num2, Calculation1.Variation));
 #endregion    
 
-#region
+#region Number category
 
-Numbercategory step1 = new Numbercategory();
+//Numbercategory step1 = new Numbercategory();
 
-Console.WriteLine("Enter the number");
+//Console.WriteLine("Enter the number");
 
-step1.Num = int.Parse(Console.ReadLine());
+//step1.Num = int.Parse(Console.ReadLine());
 
-Console.WriteLine(step1.NumberCategory(step1.Num));
+//Console.WriteLine(step1.NumberCategory(step1.Num));
 
 
 #endregion
 
+
+#region Lab work calling method within class
+//Callarrdata Firstattempt1 = new Callarrdata();
+
+//string[] array = { "salam", "necese" };
+
+//Firstattempt1.ArrayOnScreen(array);
+
+#endregion
+
+
+#region
+int  [,] arr = { {1, 2, 3}, {4, 5, 6},{7, 8, 9}};
+
+
+
+Callarrdata Callarrdata1 = new Callarrdata();
+
+Callarrdata1.CalculateArr(arr);
+#endregion
 
