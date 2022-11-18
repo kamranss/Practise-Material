@@ -31,20 +31,34 @@ using System.Text;
 //Console.Write("Your password in plain text is {0}", passwordBuilder.ToString());
 #endregion
 
-Calculator Calculation1 = new Calculator();
+#region Calculator
+//Calculator Calculation1 = new Calculator();
 
-Console.WriteLine(" Write First number ->>");
-Calculation1.Num1 = double.Parse(Console.ReadLine());
-Console.WriteLine("Write Second number ->>");
-Calculation1.Num2 = double.Parse(Console.ReadLine());
-Console.WriteLine(" choose one of the following methods");
-Console.WriteLine(" for  +  ->>press->> 1");
-Console.WriteLine(" for  *  ->>press->> 2");
-Console.WriteLine(" for  -  ->>press->> 3");
-Console.WriteLine(" for  /  ->>press->> 3");
+//Console.WriteLine(" Write First number ->>");
+//Calculation1.Num1 = double.Parse(Console.ReadLine());
+//Console.WriteLine("Write Second number ->>");
+//Calculation1.Num2 = double.Parse(Console.ReadLine());
+//Console.WriteLine(" choose one of the following methods");
+//Console.WriteLine(" for  +  ->>press->> 1");
+//Console.WriteLine(" for  *  ->>press->> 2");
+//Console.WriteLine(" for  -  ->>press->> 3");
+//Console.WriteLine(" for  /  ->>press->> 3");
 
-Calculation1.Variation = Console.ReadLine();
-Console.WriteLine($"Result =" + Calculation1.CalculatorMethod(Calculation1.Num1, Calculation1.Num2, Calculation1.Variation));
-        
+//Calculation1.Variation = Console.ReadLine();
+//Console.WriteLine($"Result = " + Calculation1.CalculatorMethod(Calculation1.Num1, Calculation1.Num2, Calculation1.Variation));
+#endregion    
+
+#region
+
+Numbercategory step1 = new Numbercategory();
+
+Console.WriteLine("Enter the number");
+
+step1.Num = int.Parse(Console.ReadLine());
+
+Console.WriteLine(step1.NumberCategory(step1.Num));
+
+
+#endregion
 
 
