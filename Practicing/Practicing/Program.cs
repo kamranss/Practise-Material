@@ -61,7 +61,6 @@ using System.Text;
 
 #endregion
 
-
 #region Lab work calling method within class
 //Callarrdata Firstattempt1 = new Callarrdata();
 
@@ -71,14 +70,25 @@ using System.Text;
 
 #endregion
 
+#region Sum arr diognals and than implement deduction
+//int  [,] arr = { {1, 2, 3}, {4, 5, 6},{7, 8, 9}};
+
+//Callarrdata Callarrdata1 = new Callarrdata();
+
+//Callarrdata1.CalculateArr(arr);
+#endregion
 
 #region
-int  [,] arr = { {1, 2, 3}, {4, 5, 6},{7, 8, 9}};
+Arrmethods method1 = new Arrmethods();
+Console.WriteLine("Write some word or numbers");
+string a = Console.ReadLine();
+
+method1.Arr1 = a.Split(",");
+
+method1.ArrMethod1(method1.Arr1);
 
 
 
-Callarrdata Callarrdata1 = new Callarrdata();
 
-Callarrdata1.CalculateArr(arr);
 #endregion
 
