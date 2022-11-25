@@ -17,10 +17,12 @@ namespace Practicing.Weekdays
         }
 
 
-        public override string Wdays(int number)
+        public  sealed override string Wdays(int number)
         {
             Console.WriteLine(weekdays[number]);
             return "1";
+
+            // Project updated
         }
 
     }
