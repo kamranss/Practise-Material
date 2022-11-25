@@ -23,6 +23,21 @@ namespace Practicing.Weekdays
             return "1";
 
             // Project updated
+
+            int n = 5;
+            int m = 6;
+            int sum = n + m;
+
+            if (n == m)
+            {
+                Console.WriteLine(sum);
+            }
+            else
+            {
+                sum = (n + m) * 3;
+            }
+            Console.WriteLine(sum);
+
         }
 
     }
