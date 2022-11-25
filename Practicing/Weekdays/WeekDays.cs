@@ -38,6 +38,26 @@ namespace Practicing.Weekdays
             }
             Console.WriteLine(sum);
 
+
+            //   kdlkjdlj
+
+            int n = 8;
+            int m = 51;
+
+
+            if (n == m)
+            {
+                Console.WriteLine("enter different number");
+            }
+            else if (n < m)
+            {
+                Console.WriteLine(m - n);
+            }
+            else if (n > m)
+            {
+                Console.WriteLine((n - m) * 3);
+            }
+
         }
 
     }
